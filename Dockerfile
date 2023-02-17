@@ -15,6 +15,6 @@ RUN echo "" | ./mcl-installer-ce4ab47-linux-amd64
 RUN ./mcl --update-package net.mamoe:mirai-api-http --type plugin --channel stable-v2 \
 && ./mcl --update-package net.mamoe:chat-command --type plugin --channel stable \
 && ./mcl --update-package xyz.cssxsh.mirai:mirai-openai-plugin --channel maven-stable --type plugins \
-&& ./mcl
+&& ./mcl -z
 
 # login 1144560553 password
