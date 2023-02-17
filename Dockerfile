@@ -8,9 +8,11 @@ RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-* \
 && yum makecache \
 && yum install wget -y \
 && wget https://github.com/iTXTech/mcl-installer/releases/download/ce4ab47/mcl-installer-ce4ab47-linux-amd64 \
-&& chmod 777 mcl-installer-ce4ab47-linux-amd64 \
-&& echo "" | ./mcl-installer-ce4ab47-linux-amd64 \ # ????
-&& ./mcl --update-package net.mamoe:mirai-api-http --type plugin --channel stable-v2 \
+&& chmod 777 mcl-installer-ce4ab47-linux-amd64 
+
+RUN echo "" | ./mcl-installer-ce4ab47-linux-amd64 
+
+RUN && ./mcl --update-package net.mamoe:mirai-api-http --type plugin --channel stable-v2 \
 && ./mcl --update-package net.mamoe:chat-command --type plugin --channel stable \
 && ./mcl --update-package xyz.cssxsh.mirai:mirai-openai-plugin --channel maven-stable --type plugins \
 && ./mcl
