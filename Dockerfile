@@ -21,6 +21,7 @@ RUN cd plugins \
 && wget https://github.com/Samarium150/mirai-console-lolicon/releases/download/6.0.8/mirai-console-lolicon-6.0.8.mirai2.jar \
 && wget https://github.com/LaoLittle/AutoGroup/releases/download/2.0.3/AutoGroup-2.0.3.mirai.jar \
 && wget https://github.com/LaoLittle/PatPat/releases/download/2.0.1/PatPat-2.0.1.mirai.jar \
-&& wget https://github.com/happysnaker/mirai-plugin-HRobot/releases/download/3.4.1/plugin-3.4.1-SNAPSHOT.mirai.jar
+&& wget https://github.com/happysnaker/mirai-plugin-HRobot/releases/download/3.4.1/plugin-3.4.1-SNAPSHOT.mirai.jar \
+&& wget https://gitee.com/arisaka-iris/hithit/releases/download/2.0.0/HitHit-2.0.0.mirai.jar
 
 # login 1144560553 password
