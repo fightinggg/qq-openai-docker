@@ -25,6 +25,7 @@ RUN cd plugins \
 && wget https://github.com/LaoLittle/PatPat/releases/download/2.0.1/PatPat-2.0.1.mirai.jar \
 && wget https://github.com/happysnaker/mirai-plugin-HRobot/releases/download/3.4.1/plugin-3.4.1-SNAPSHOT.mirai.jar \
 && wget https://gitee.com/arisaka-iris/hithit/releases/download/2.0.0/HitHit-2.0.0.mirai.jar \
-&& wget https://github.com/fightinggg/plum/releases/download/1.0/Plum-1.0-SNAPSHOT.mirai.jar
+&& wget https://github.com/fightinggg/plum/releases/download/1.0/Plum-1.0-SNAPSHOT.mirai.jar \
+&& wget https://github.com/cssxsh/fix-protocol-version/releases/download/v1.5.0/fix-protocol-version-1.5.0.mirai2.jar
 
 # login 1144560553 password
